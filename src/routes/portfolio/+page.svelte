@@ -1,3 +1,5 @@
+<meta http-equiv="refresh" content="0; url=https://hactuss-portfolio.vercel.app" />
+<!--
 <iframe
 title="main-window"
 src="https://hactuss-portfolio.vercel.app"
@@ -19,3 +21,4 @@ src="https://hactuss-portfolio.vercel.app"
         }
     }
 </style>
+-->

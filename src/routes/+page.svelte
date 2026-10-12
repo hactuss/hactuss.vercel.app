@@ -13,6 +13,13 @@
 {#if Device.isPhone == true}
     <meta http-equiv="refresh" content="0; url=/m" />
 {/if}
+
+{#snippet socials()}
+    <li><a href="https://github.com/hactuss">Github</a></li>
+    <li><a href="https://youtube.com/@hactuss">Youtube</a></li>
+{/snippet}
+
+
 <main>
     <div class="main_container">
         <div class="image_container">
@@ -24,65 +31,27 @@
         <div  class="flex-vertical text-center place-content-center all-the-text" >
             <h1>Hactuss</h1>
             <ul class="text-list">
-                <li><a href="https://github.com/hactuss">Github</a></li>
-                <li><a href="https://youtube.com/@hactuss">Youtube</a></li>
+                {@render socials()}
+
+                <!-- embedded on h.v.a -->
                 <li><a href="/portfolio">portfolio</a></li>
                 <li><a href="/links">links</a></li>
+
+                <!-- built into site -->
                 <li>
                     <a href="/splatoon-3-guide"
                         >"ability farming in splatoon 3"</a
                     >
                 </li>
                 <li><a href="/autum-leaf">autum leaf font</a></li>
+
+                <!-- linked to -->
                 <li>
                     <a href="https://isitspookymonth.vercel.app"
                         >is it spooky month</a
                     >
                 </li>
             </ul>
-
-<!-- --
-            <table>
-              <caption>
-                Front-end web developer course 2021
-              </caption>
-              <thead>
-                <tr>
-                  <th scope="col">Person</th>
-                  <th scope="col">Most interest in</th>
-                  <th scope="col">Age</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">Chris</th>
-                  <td>HTML tables</td>
-                  <td>22</td>
-                </tr>
-                <tr>
-                  <th scope="row">Dennis</th>
-                  <td>Web accessibility</td>
-                  <td>45</td>
-                </tr>
-                <tr>
-                  <th scope="row">Sarah</th>
-                  <td>JavaScript frameworks</td>
-                  <td>29</td>
-                </tr>
-                <tr>
-                  <th scope="row">Karen</th>
-                  <td>Web performance</td>
-                  <td>36</td>
-                </tr>
-              </tbody>
-              <tfoot>
-                <tr>
-                  <th scope="row" colspan="2">Average age</th>
-                  <td>33</td>
-                </tr>
-              </tfoot>
-            </table>
--->
         </div>
     </div>
 </main>
