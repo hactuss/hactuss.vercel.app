@@ -35,16 +35,6 @@
 
                 <!-- embedded on h.v.a -->
                 <li><a href="/portfolio">portfolio</a></li>
-                <li><a href="/links">links</a></li>
-
-                <!-- built into site -->
-                <li>
-                    <a href="/splatoon-3-guide"
-                        >"ability farming in splatoon 3"</a
-                    >
-                </li>
-                <li><a href="/autum-leaf">autum leaf font</a></li>
-
                 <!-- linked to -->
                 <li>
                     <a href="https://isitspookymonth.vercel.app"
